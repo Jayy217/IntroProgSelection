@@ -6,9 +6,12 @@ namespace introprogselection
     {
         static void Main(string[] args)
         {
-            int age;
-            age = 18;
+
             int legalAge = 18;
+            int lAge = 16;
+
+            Console.WriteLine("HOW OLD ARE YOU?");
+            int age = Convert.ToInt32(Console.ReadLine());
 
             if (age >= legalAge)
             {
@@ -20,21 +23,18 @@ namespace introprogselection
                 Console.WriteLine("DON'T DRINK");
                 Console.WriteLine("DON'T DRIVE WITHOUT THE L PLATE");
             }
-            Console.WriteLine("PROGRAM FINISHED");
 
-            legalAge = 16; 
 
-            Console.WriteLine("HOW OLD ARE YOU?");
-         
-            if (age >= legalAge) 
+            if (age >= lAge)
             {
-                Console.WriteLine ("YOU CAN LEAVE SCHOOL");
+                Console.WriteLine("YOU CAN LEAVE SCHOOL");
             }
-            else 
+            else
             {
-                Console.WriteLine ("MUST STAY IN SCHOOL");
+                Console.WriteLine("MUST STAY IN SCHOOL");
             }
-        
+             Console.WriteLine("PROGRAM FINISHED");
+
         }
     }
 }
