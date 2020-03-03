@@ -21,6 +21,20 @@ namespace introprogselection
                 Console.WriteLine("DON'T DRIVE WITHOUT THE L PLATE");
             }
             Console.WriteLine("PROGRAM FINISHED");
+
+            legalAge = 16; 
+
+            Console.WriteLine("HOW OLD ARE YOU?");
+         
+            if (age >= legalAge) 
+            {
+                Console.WriteLine ("YOU CAN LEAVE SCHOOL");
+            }
+            else 
+            {
+                Console.WriteLine ("MUST STAY IN SCHOOL");
+            }
+        
         }
     }
 }
